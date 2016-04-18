@@ -8,6 +8,13 @@ The static tmux binary was generated based on the procedure:
 
 - http://mhcerri.github.io/2015/10/23/building-tmux-statically/
 
+** Easy install
+
+#+BEGIN_SRC shell
+curl -O -L 'https://github.com/mhcerri/tm/raw/master/tm'
+chmod +x ./tm
+#+END_SRC
+
 * tm - tmux manager / helper
 
 This is a medium sized shell script of mine, used to ease my
